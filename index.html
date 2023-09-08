@@ -6,27 +6,29 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <title>Rhisav's Netflix</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="nav_logo">
-                <img src="./Assets/Netflix.png" alt="Logo">
+            <div class="navbar_netflix">
+                <img src="./Assets/Netflix.png" alt="Logo" class="netflix_logo">
             </div>
 
-            <div class="nav_items">
-                <div class="nav_item_1">
-                    <div class="lang_drop">
-                        <select name="languages" id="languagesSelect">
+            <div class="navbar_nav_items">
+                <div class="nav_item">
+                    <div class="dropdown_container">
+                        <i class="fa fa-globe"></i>
+                        <select name="languages" id="languagesSelect" class="language_drop_down">
                             <option value="english" selected>English</option>
                             <option value="hindi">Hindi</option>
                         </select>
                     </div>
                 </div>
 
-                <div class="nav_item_2">
-                    <button class="signIn_button">Sign In</button>
+                <div class="nav_item">
+                    <button class="signin_button">Sign In</button>
                 </div>
             </div>
         </nav>
