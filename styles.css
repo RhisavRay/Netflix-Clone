@@ -123,3 +123,13 @@ body
     font-weight: 400;
     line-height: 1.875rem;
 }
+
+.hero_email_input
+{
+    width: 450px;
+    height: 60px;
+    color: black;
+    padding: 0.25rem, 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+}
