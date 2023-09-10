@@ -128,8 +128,20 @@ body
 {
     width: 450px;
     height: 60px;
-    color: black;
+    color: white;
+    background: rgba(21, 21, 21, 0.897);
     padding: 0.25rem, 0.5rem;
-    border-radius: 3px;
+    border-radius: 5px;
     border-color: white;
+}
+
+.hero_email_submit_button
+{
+    font-size: 1.5rem;
+    width: 170px;
+    height: 60px;
+    background-color: #DC030F;
+    color: white;
+    border: 1px solid #DC030F;
+    border-radius: 0.25rem;
 }
