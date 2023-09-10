@@ -92,3 +92,13 @@ body
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
 }
+
+.hero_card
+{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
