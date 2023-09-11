@@ -166,3 +166,13 @@ body
 {
     padding-left: 80px;
 }
+
+.card_1 video
+{
+    position: relative;
+    width: 100%;
+    height: 54%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
