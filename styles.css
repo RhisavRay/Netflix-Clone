@@ -191,3 +191,9 @@ body
     padding: 1rem;
     padding-left: 0;
 }
+
+.style_cards h3
+{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
