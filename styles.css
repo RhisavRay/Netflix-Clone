@@ -69,7 +69,7 @@ body
     width: 100px;
 }
 
-/* Stylings for hero section */
+/* Styles for hero section */
 
 .hero_bg_image_container
 {
@@ -146,6 +146,8 @@ body
     border-radius: 0.25rem;
 }
 
+/* Styles for cards */
+
 .card_1, .card_2, .card_3
 {
     border-top: 8px rgb(69, 69, 69);
@@ -181,4 +183,11 @@ body
 {
     grid-column: 2/2;
     grid-row: 1/2;
+}
+
+.style_cards h1
+{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
 }
