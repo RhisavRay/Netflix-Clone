@@ -145,3 +145,9 @@ body
     border: 1px solid #DC030F;
     border-radius: 0.25rem;
 }
+
+.card_1, .card_2, .card_3
+{
+    border-top: 8px rgb(69, 69, 69);
+    padding: 50px;
+}
