@@ -197,3 +197,13 @@ body
     font-size: 1.6rem;
     line-height: 2rem;
 }
+
+.card_2
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: right;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
