@@ -203,7 +203,12 @@ body
     position: relative;
     display: inline-grid;
     grid-template-columns: 40% 50%;
-    text-align: right;
+    text-align: left;
     align-items: center;
     padding: 25px 45px 50px;
+}
+
+.desc_2
+{
+    padding-left: 100%;
 }
