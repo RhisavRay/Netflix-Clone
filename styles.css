@@ -182,8 +182,8 @@ footer{
 }
 .card-3 video{
     position: relative;
-    top: -87px;
-    left: 125px;
+    top: -80px;
+    left: 120px;
     width: 65%;
     height: 78%;
     grid-column: 2/2;
